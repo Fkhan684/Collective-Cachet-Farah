@@ -39,6 +39,11 @@ body, html {
     padding: 20px;
     transition: background-color 0.3s ease;
 }
+.navbar a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Ensures the color matches surrounding text/icons */
+}
+
 
 /* Transparent but changes on hover */
 .navbar:hover {
